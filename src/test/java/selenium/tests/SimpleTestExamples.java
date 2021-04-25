@@ -39,6 +39,19 @@ public class SimpleTestExamples extends Base {
 
     @Test(description = "Authentication testdfadfkj")
     @Description("Checks if user is able to log indsafjk;lsdjf")
+    public void loginTest3() {
+
+        User user = fileLoaderService.getUser("user");
+        User user = fileLoaderService.getUser("user");
+        User user = fileLoaderService.getUser("user");
+        LoginPage loginPage = new LoginPage(Driver.getDriver());
+        assertThat(loginPage.getCurrentUrl(), equalTo(appUrl + "secure"));
+        assertThat(loginPage.getCurrentUrl(), equalTo(appUrl + "secure"));
+
+    }
+
+    @Test(description = "Authentication testdfadfkj")
+    @Description("Checks if user is able to log indsafjk;lsdjf")
     public void loginTest2() {
 
         User user = fileLoaderService.getUser("user");
@@ -65,5 +78,9 @@ public class SimpleTestExamples extends Base {
           assertThat(loginPage.getCurrentUrl(), equalTo(appUrl + "secure"));
 
     }
+
+
+
+
 
 }
