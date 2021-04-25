@@ -60,6 +60,9 @@ public class SimpleTestExamples extends Base {
         User user = fileLoaderService.getUser("user");
           User user = fileLoaderService.getUser("user");
           User user = fileLoaderService.getUser("user");
+          LoginPage loginPage = new LoginPage(Driver.getDriver());
+          assertThat(loginPage.getCurrentUrl(), equalTo(appUrl + "secure"));
+          assertThat(loginPage.getCurrentUrl(), equalTo(appUrl + "secure"));
 
     }
 
