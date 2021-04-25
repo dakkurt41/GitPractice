@@ -60,6 +60,9 @@ public class SimpleTestExamples extends Base {
         User user = fileLoaderService.getUser("user");
           User user = fileLoaderService.getUser("user");
           User user = fileLoaderService.getUser("user");
+         User user = fileLoaderService.getUser("user");
+          User user = fileLoaderService.getUser("user");
+          User user = fileLoaderService.getUser("user");
 
     }
 
