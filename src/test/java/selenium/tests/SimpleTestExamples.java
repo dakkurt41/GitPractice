@@ -58,6 +58,7 @@ public class SimpleTestExamples extends Base {
 
         HomePage homePage = new HomePage(Driver.getDriver());
         homePage.goToLoginPage();
+        homePage.goToLoginPage();
 
         LoginPage loginPage = new LoginPage(Driver.getDriver());
         loginPage.login(user.getUsername(), user.getPassword());
